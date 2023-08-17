@@ -14,26 +14,6 @@
 
 */
 
-.theme-dark {
-  --bg-pattern: url("/svg/pattern-dark.svg");
-  --bg-color: black;
-
-  --bold-weight: 785;
-  --normal-weight: 465;
-
-  --accent-color: #00CC14;
-}
-
-.theme-light {
-  --bg-pattern: url("/svg/pattern-light.svg");
-  --bg-color: #FFF;
-
-  --bold-weight: 700;
-  --normal-weight: 400;
-
-  --accent-color: #000;
-}
-
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
