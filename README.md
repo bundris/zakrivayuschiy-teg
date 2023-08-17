@@ -1,1 +1,1 @@
-https://github.com/bundris/zakrivayuschiy-teg/tree/review
+https://github.com/bundris/zakrivayuschiy-teg
