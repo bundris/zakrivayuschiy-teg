@@ -23,3 +23,15 @@
 
     --accent-color: #000;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-pattern: url("/svg/pattern-dark.svg");
+        --bg-color: black;
+
+        --bold-weight: 785;
+        --normal-weight: 465;
+
+        --accent-color: #00CC14;
+    }
+}

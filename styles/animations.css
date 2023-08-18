@@ -88,6 +88,11 @@
     animation: button-slide 0.5s ease-in-out;
     animation-fill-mode: forwards;
 }
+/* анимируем фокус на кнопках */
+
+.animated-button {
+    transition: box-shadow 0.3s ease;
+}
 
 /* анимируем иконку при ховере */
 @keyframes icon-border {
