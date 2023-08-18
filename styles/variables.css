@@ -2,8 +2,8 @@
     --bg-pattern: url("/svg/pattern-light.svg");
     --bg-color: #FFF;
 
-    --main-font: "Inter", serif;
-    --accent-font: "Press Start 2P", serif;
+    --main-font: "Inter", sans-serif;
+    --accent-font: "Press Start 2P", fantasy;
     --bold-weight: 700;
     --normal-weight: 400;
 
