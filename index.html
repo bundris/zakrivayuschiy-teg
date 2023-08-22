@@ -330,21 +330,6 @@
       </article>
     </main>
     <footer class="footer">
-      <dialog id="modal">
-        <div class="modal__container">
-          <div class="modal__text">
-            <svg class="floppy-icon" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
-              <use href="/svg/floppy.svg#tape" />
-            </svg>
-            <p class="modal__label">Вставьте дискету,&nbsp;чтобы продолжить</p>
-          </div>
-          <button class="modal__button animated-button"
-            onclick="window['modal'].close()"
-          >
-            <span class="button__text">ок</span>
-          </button>
-        </div>
-      </dialog>
       <button
         class="footer__button animated-button"
         onclick="window['modal'].showModal()"
@@ -356,6 +341,19 @@
         <span class="button__text">Сохранить на память</span>
       </button>
     </footer>
+    <dialog id="modal">
+      <form class="modal__container" method="dialog">
+        <div class="modal__text">
+          <svg class="floppy-icon" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+            <use href="/svg/floppy.svg#tape" />
+          </svg>
+          <p class="modal__label">Вставьте дискету,&nbsp;чтобы продолжить</p>
+        </div>
+        <button class="modal__button animated-button">
+          <span class="button__text">ок</span>
+        </button>
+      </form>
+    </dialog>
     <script src="./scripts/set-theme.js"></script>
     <script src="./scripts/like.js"></script>
   </body>
