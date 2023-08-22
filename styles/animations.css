@@ -66,19 +66,6 @@
     }
 }
 
-@keyframes button-text-color {
-    0% {
-        color: var(--accent-color);
-    }
-    100% {
-        color: var(--bg-color);
-    }
-}
-
-.animated-button:hover {
-    animation: button-text-color 1s ease;
-}
-
 .animated-button::before {
     transform-origin: left center;
     transform: scaleX(0);
@@ -88,6 +75,7 @@
     animation: button-slide 0.5s ease-in-out;
     animation-fill-mode: forwards;
 }
+
 /* анимируем фокус на кнопках */
 
 .animated-button {
