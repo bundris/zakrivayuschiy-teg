@@ -292,12 +292,12 @@
 
 /* modal */
 
-#modal {
+#modal[open] {
   width: clamp(21.563rem, 21.21rem + 1.502vw, 22.563rem);
   border: 2px solid var(--accent-color);
 }
 
-#modal::backdrop {
+#modal[open]::backdrop {
   background-color: #000;
   opacity: 0.75;
 }
